@@ -30,13 +30,13 @@ const [displayModal, setDisplayModal] = useState(false);
 1. Put this into your component :
 ```javascript
 const modalParameter = {
-	"backgroundColor": "#EEEEEE",   
-	"borderRadius": 10,
-	"boxShadow": "0 0 5px #1B1919",
-	"color": "#1B1919",
-	"fontSize": 18,
-	"height": "fit-content",
-	"padding": "20px 50px",
-	"width": "fit-content"
+	"backgroundColor": "",   
+	"borderRadius": "",
+	"boxShadow": "",
+	"color": "",
+	"fontSize": "",
+	"height": "",
+	"padding": "",
+	"width": ""
 }
 ```
