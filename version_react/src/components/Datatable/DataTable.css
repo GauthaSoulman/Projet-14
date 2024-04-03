@@ -1,0 +1,130 @@
+/* Category */
+.data-category {
+    color: var(--white);
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Search */
+.data-search {
+    margin-bottom: 50px;
+}
+
+/* Entries */
+.data-entries {
+    color: var(--green);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.data-entries-select {
+    align-items: center;
+    display: inline-flex;
+}
+.data-entries-select > label {
+    font-size: 15px;
+}
+.data-entries-select > select {
+    font-size: 15px;
+    height: unset;
+    margin-left: 10px;
+    padding: unset;
+}
+
+.data-entries-total {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Button */
+.btn-data-table {
+    background-color: var(--light-green);
+    border: none;
+    color: var(--black);
+    font-size: 18px;
+    margin: auto 10px 20px 0;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.btn-data-table:hover {
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Container */
+.data-table-container {
+    overflow-x: auto;
+}
+
+/* Table */
+.data-table {
+    border-collapse: collapse;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+}
+
+/* Sort */
+.data-table-sort {
+    border-right: 3px solid var(--white);
+    padding: 30px 5px;
+    text-align: -webkit-center;
+    text-transform: uppercase;
+}
+.data-table-sort:last-of-type {
+    border-right: unset;
+}
+
+.data-table-sort-arrow {
+    color: var(--black);
+    font-size: 25px;
+    transition: 0.5s;
+    vertical-align: middle;
+}
+.data-table-sort-arrow:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+
+/* Head */
+.data-table-head {
+    background-color: var(--full-white);
+    color: var(--green);
+    font-size: 20px;
+}
+
+/* Body */
+.data-table-body {}
+
+.data-table-body-value {
+    padding: 30px 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.data-table-body-value:hover {
+    background-color: var(--light-green);
+    color: var(--black);
+    cursor: pointer;
+}
+
+/* Row */
+.data-table-row {}
+
+.data-table-body > .data-table-row:nth-child(odd) {
+    background-color: var(--transparent-grey);
+}
+.data-table-body > .data-table-row:nth-child(even) {
+    background-color: var(--transparent-white);
+}
+
+/** Responsive **/
+@media screen and (max-width: 1400px) {
+    /* Sort */
+    .data-table-sort-arrow {
+        display: block;
+        font-size: 20px;
+    }
+}

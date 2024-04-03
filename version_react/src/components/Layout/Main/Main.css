@@ -1,0 +1,16 @@
+/* Main */
+main {
+    background-color: var(--white);
+    min-height: calc(100vh - 158px);
+    padding: 0 100px 20px 100px;
+    margin:1% 20% 20% ;
+  
+}
+
+/** Responsive **/
+@media screen and (max-width: 1400px) {
+    /* Main */
+    main {
+        padding: 0 15px 20px 15px;
+    }
+}

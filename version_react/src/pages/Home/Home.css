@@ -1,0 +1,132 @@
+/* Title */
+.title {
+    color: var(--white);
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* Errors */
+.form-error-info {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.form-error-list {
+    margin: 10px 0 20px 0;
+}
+
+.form-error {
+    color: var(--light-red);
+}
+
+/* Divider */
+.form-divider {
+    color: var(--black);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.form-divider:first-of-type {
+    margin-top: 0;
+}
+
+/* Category */
+.form-category {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Row */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.form-row-full {
+    width: 100%;
+}
+
+/* Col */
+.form-col {
+    display: inline-flex;
+    flex: 1 0 calc((100% - 40px) / 2);
+    flex-direction: column;
+}
+
+.form-col-full {
+    flex: 1 0 100%;
+}
+
+/* Label */
+label {
+    color: var(--green);
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2.5px;
+}
+label::after {
+    content: " : ";
+}
+
+/* Input / Select */
+input, select {
+    box-sizing: border-box;
+    border: 0;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 5px;
+}
+
+.form-col > input, 
+.form-col > select {
+    width: 100%;
+}
+
+/* DatePicker */
+.react-datepicker__triangle {
+    display: none;
+}
+
+.date-picker-input {
+    width: 100%;
+}
+
+/* Btn */
+#form-btn {
+    background-color: var(--light-green);
+    border: none;
+    color: var(--black);
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    width: 100%;
+}
+#form-btn:hover {
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/** Responsive **/
+@media screen and (max-width: 992px) {
+    /* Row */
+    .form-row {
+        margin-top: 0;
+    }
+
+    /* Col */
+    .form-col {
+        flex: 1 0 100%;
+        margin-bottom: 15px;
+    }
+}
