@@ -1,5 +1,4 @@
-function Dropdown({name, onChangeDropdown, optionsList}) {
-    // Template
+function Dropte
     return (
         <select defaultValue={optionsList[0].abbreviation} id={name} name={name} onChange={(e) => {onChangeDropdown(e.target.value)} }>
             {
@@ -11,4 +10,5 @@ function Dropdown({name, onChangeDropdown, optionsList}) {
     );
 }
 
-export default Dropdown;
+export default Dropdown;down({name, onChangeDropdown, optionsList}) {
+    // Templa

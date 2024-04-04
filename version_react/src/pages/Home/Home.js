@@ -136,7 +136,7 @@ function Home() {
             {/* Title */}
             <title>"Create a new employee"</title>
             
-            {/* Errors */}
+            {/* /* Errors */ }
             {errorForm.length !== 0 &&
                 <div className="form-errors">
                     <span className="form-error-info">Please fill in the following fields correctly :</span>
