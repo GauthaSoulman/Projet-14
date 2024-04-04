@@ -1,12 +1,9 @@
-import { render, screen,waitFor } from '@testing-library/react';
-import App from './App';
+import { render, screen} from '@testing-library/react';
 import { MemoryRouter} from "react-router-dom"
-import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout"
 import { BrowserRouter } from "react-router-dom"
-import Employee from './pages/Employee/Employee';
 import Home from './pages/Home/Home';
-import DataTable from './components/Datatable/Datatable';
+
 
 describe("When the URI is \"/\"", () => {
   test("Display the Header)", () => {
