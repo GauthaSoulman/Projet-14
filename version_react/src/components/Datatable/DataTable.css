@@ -62,7 +62,7 @@
 /* Table */
 .data-table {
     border-collapse: collapse;
-    color: var(--white);
+    color: var(--full-white);
     text-align: center;
     width: 100%;
 }
@@ -105,7 +105,7 @@
     transition: 0.5s;
 }
 .data-table-body-value:hover {
-    background-color: var(--light-green);
+    background-color: var(--green);
     color: var(--black);
     cursor: pointer;
 }
@@ -117,7 +117,7 @@
     background-color: var(--transparent-grey);
 }
 .data-table-body > .data-table-row:nth-child(even) {
-    background-color: var(--transparent-white);
+    background-color: var(--light-green);
 }
 
 /** Responsive **/
